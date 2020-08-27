@@ -92,7 +92,7 @@ body, html {
 <!-- Container (About Section) -->
 <div class="s625-content s625-container s625-padding-64" id="about">
   <h3 class="s625-center">ABOUT TRISH</h3>
-  <img src="assets/salonPhotos/Trish.jpg" class="s625-round s625-opacity s625-hover-opacity-off circleimage" alt="Photo of Trish">
+  <img src="assets/salonPhotos/Trish.jpg" class="s625-round circleimage" alt="Photo of Trish">
   <p class='s625-center'>Everyone wants to look their best and it’s Trish’s job to create a look that blends your personal style with current trends and the characteristics of your hair. Specializing in cuts and color for men and women alike, Trish’s 30 years of experience, her ongoing Aveda training and her passion for your hair, are the perfect combination to find your best look.</p>
 </div>
 
