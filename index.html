@@ -98,20 +98,34 @@ body, html {
 
 <!-- Container (Services Section) -->
 <div class="s625-row s625-center s625-dark-grey s625-padding-16" id="services">
-  <div class="s625-third s625-section">
+  <div class="s625-quarter s625-section">
+    <img src="assets/Icons/icon-2-white.png" class='icons'><br>
+    <span class="s625-xlarge">Cuts</span>
+    <p>Catered cuts for a wide range<br> of styles and types.</p>
+  </div>
+  <div class="s625-quarter s625-section">
     <img src="assets/Icons/icon-4-white.png" class='icons'><br>
     <span class="s625-xlarge">Custom Color</span>
-    <p>Permanent and temporary hair coloring<br> treatment in a wide variety of shades.</p>
+    <p>Permanent and temporary color<br> treatment in a wide variety of shades.</p>
   </div>
-  <div class="s625-third s625-section">
+  <div class="s625-quarter s625-section">
     <img src="assets/Icons/icon-3-white.png" class='icons'><br>
     <span class="s625-xlarge">Highlights</span>
     <p>Accent your existing color by bringing<br> forth more vibrant color tones.</p>
   </div>
-  <div class="s625-third s625-section">
+  <div class="s625-quarter s625-section">
     <img src="assets/Icons/icon-1-white.png" class='icons'><br>
     <span class="s625-xlarge">Lowlights</span>
     <p>Bring out the rich undertones<br> your hair possesses.</p>
+  </div>
+  <div class='s625-center pricelist s625-col'>
+    <h3>PRICING</h3>
+    <ul>
+      <li>Cut & Styling..............................$40 & up</li>
+      <li>Color..............................................$50 & up</li>
+      <li>Highlight/Lowlights.................$80 & up</li>
+      <li>Men's Cuts..................................$40 & up</li>
+    </ul>
   </div>
 </div>
 
