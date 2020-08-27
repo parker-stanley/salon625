@@ -209,11 +209,11 @@ body, html {
     </div>
     <div class="s625-col m8 s625-panel">
       <div class="s625-large s625-margin-bottom">
-        <i class="fa fa-map-marker fa-fw s625-hover-text-black s625-xlarge s625-margin-right"></i> 625 W. Park Ave. Albert Lea, MN<br>
-        <i class="fa fa-phone fa-fw s625-hover-text-black s625-xlarge s625-margin-right"></i> Phone: (507) 402-5913<br>
-        <i class="fa fa-envelope fa-fw s625-hover-text-black s625-xlarge s625-margin-right"></i> Email: trishstanley@me.com<br>
+        <i class="fa fa-map-marker fa-fw s625-xlarge s625-margin-right"></i>625 W. Park Ave. Albert Lea, MN<br>
+        <i class="fa fa-phone fa-fw s625-xlarge s625-margin-right"></i><a href="tel:(507) 402-5913">(507) 402-5913</a><br>
+        <i class="fa fa-envelope fa-fw s625-xlarge s625-margin-right"></i><a href="trishstanley@me.com">trishstanley@me.com</a><br>
       </div>
-      <form action="/action_page.php" target="_blank">
+      <form action="mailto:parkerjstanley@gmail.com" method="POST" enctype=”multipart/form-data” name="contactForm">
         <div class="s625-row-padding" style="margin:0 -16px 8px -16px">
           <div class="s625-half">
             <input class="s625-input s625-border" type="text" placeholder="Name" required name="Name">
