@@ -97,7 +97,7 @@ body, html {
 </div>
 
 <!-- Container (Services Section) -->
-<div class="s625-row s625-center s625-dark-grey s625-padding-16" id="services">
+<div class="s625-row s625-center s625-dark-grey s625-padding-64" id="services">
   <div class="s625-quarter s625-section">
     <img src="assets/Icons/icon-2-white.png" class='icons'><br>
     <span class="s625-xlarge">Cuts</span>
