@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Salon 625 - Albert Lea Hair Salon, Hairdresser and Hair Stylist</title>
+<link rel="icon" type="image/x-icon" href="assets/Icons/icon-2-white.png" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="townorder" id="townorder" content="Albert Lea, Mankato and Owatonna">
+<meta name="marketspecialties" id="marketspecialties" content="Hair Salon, Hairdresser and Hair Stylist">
+<meta name="city" id="city" content="Albert Lea">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('assets/Aveda/Heros/hero-desktop.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("assets/salonPhotos/Products!.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("assets/Aveda/makeup.jpg");
+  min-height: 400px;
+}
+
+.s625-wide {letter-spacing: 10px;}
+.s625-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1040px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="s625-top">
+  <div class="s625-bar" id="myNavbar">
+    <a class="s625-bar-item s625-button s625-hover-black s625-hide-medium s625-hide-large s625-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="s625-bar-item s625-button">HOME</a>
+    <a href="#about" class="s625-bar-item s625-button s625-hide-small">ABOUT</a>
+    <a href="#services" class="s625-bar-item s625-button s625-hide-small">SERVICES</a>
+    <a href="#products" class="s625-bar-item s625-button s625-hide-small">PRODUCTS</a>
+    <a href="#contact" class="s625-bar-item s625-button s625-hide-small">CONTACT</a>
+    <a href="#" class="s625-bar-item s625-button s625-hide-small s625-right s625-hover-red">
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="s625-bar-block s625-white s625-hide s625-hide-large s625-hide-medium">
+    <a href="#about" class="s625-bar-item s625-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#products" class="s625-bar-item s625-button" onclick="toggleFunction()">PRODUCTS</a>
+    <a href="#contact" class="s625-bar-item s625-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 s625-display-container s625-opacity-min" id="home">
+  <div class="s625-display-middle" style="white-space:nowrap;">
+    <span class="s625-center s625-padding-large s625-black s625-xlarge s625-wide s625-animate-opacity">SALON 625</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="s625-content s625-container s625-padding-64" id="about">
+  <h3 class="s625-center">ABOUT TRISH</h3>
+  <img src="assets/salonPhotos/Trish.jpg" class="s625-round circleimage" alt="Photo of Trish">
+  <p class='s625-center'>Everyone wants to look their best and it’s Trish’s job to create a look that blends your personal style with current trends and the characteristics of your hair. Specializing in cuts and color for men and women alike, Trish’s 30 years of experience, her ongoing Aveda training and her passion for your hair, are the perfect combination to find your best look.</p>
+</div>
+
+<!-- Container (Services Section) -->
+<div class="s625-row s625-center s625-dark-grey s625-padding-64" id="services">
+  <div class="s625-quarter s625-section">
+    <img src="assets/Icons/icon-2-white.png" class='icons'><br>
+    <span class="s625-xlarge">Cuts</span>
+    <p>Catered cuts for both men and women<br> in a wide range of styles and types.</p>
+    <p>$40 & up</p>
+  </div>
+  <div class="s625-quarter s625-section">
+    <img src="assets/Icons/icon-4-white.png" class='icons'><br>
+    <span class="s625-xlarge">Custom Color</span>
+    <p>Permanent and temporary color<br> treatment in a wide variety of shades.</p>
+    <p>$55 & up</p>
+  </div>
+  <div class="s625-quarter s625-section">
+    <img src="assets/Icons/icon-3-white.png" class='icons'><br>
+    <span class="s625-xlarge">Highlights</span>
+    <p>Accent your existing color by bringing<br> forth more vibrant color tones.</p>
+    <p>$80 & up</p>
+  </div>
+  <div class="s625-quarter s625-section">
+    <img src="assets/Icons/icon-1-white.png" class='icons'><br>
+    <span class="s625-xlarge">Lowlights</span>
+    <p>Bring out the rich undertones<br> your hair possesses.</p>
+    <p>$80 & up</p>
+  </div>
+  <!-- commenting out pricelist
+  <div class='s625-center pricelist s625-col'>
+    <h3>PRICING</h3>
+    <ul>
+      <li>Cut & Styling..............................$40 & up</li>
+      <li>Color..............................................$50 & up</li>
+      <li>Highlight/Lowlights.................$80 & up</li>
+      <li>Men's Cuts..................................$40 & up</li>
+    </ul>
+  </div>
+-->
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 s625-display-container s625-opacity-min">
+  <div class="s625-display-middle">
+    <span class="s625-xxlarge s625-text-white s625-wide">AVEDA PRODUCTS</span>
+  </div>
+</div>
+
+<!-- Container (Product Section) -->
+<div class="s625-content s625-container s625-padding-64" id="products">
+  <p class="s625-center"><em>Here at Salon 625 we work exclusively with Aveda products.<br>Below are just a few of from our comprehensive selection.</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="s625-row-padding s625-center">
+    <div class="s625-col m3">
+      <img src="assets/Products/rosemary-mint.jpg" style="width:100%" onclick="onClick(this)" class="s625-hover-opacity" alt="An assortment of the Rosemary mint product line.">
+    </div>
+
+    <div class="s625-col m3">
+      <img src="assets/Products/smooth-infusion.jpg" style="width:100%" onclick="onClick(this)" class="s625-hover-opacity" alt="The Smooth Infusions product line.">
+    </div>
+
+    <div class="s625-col m3">
+      <img src="assets/Products/brilliant.jpg" style="width:100%" onclick="onClick(this)" class="s625-hover-opacity" alt="The Brilliant product line.">
+    </div>
+
+    <div class="s625-col m3">
+      <img src="assets/Products/be-curly.jpg" style="width:100%" onclick="onClick(this)" class="s625-hover-opacity" alt="The Be Curly product line.">
+    </div>
+  </div>
+
+  <div class="s625-row-padding s625-center s625-section">
+    <div class="s625-col m3">
+      <img src="assets/Products/shampure-and-relief.jpg" style="width:100%" onclick="onClick(this)" class="s625-hover-opacity" alt="The Shampure product line with Relief lotions and creams.">
+    </div>
+
+    <div class="s625-col m3">
+      <img src="assets/Products/control.jpg" style="width:100%" onclick="onClick(this)" class="s625-hover-opacity" alt="The Control product line.">
+    </div>
+
+    <div class="s625-col m3">
+      <img src="assets/Products/stress-fix.jpg" style="width:100%" onclick="onClick(this)" class="s625-hover-opacity" alt="The Stress Fix product line.">
+    </div>
+
+    <div class="s625-col m3">
+      <img src="assets/Products/pure-abundance.jpg" style="width:100%" onclick="onClick(this)" class="s625-hover-opacity" alt="The Pure Abundance product line.">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="s625-modal s625-black" onclick="this.style.display='none'">
+  <span class="s625-button s625-large s625-black s625-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="s625-modal-content s625-animate-zoom s625-center s625-transparent s625-padding-64">
+    <img id="img01" class="s625-image">
+    <p id="caption" class="s625-opacity s625-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 s625-display-container s625-opacity-min">
+  <div class="s625-display-middle">
+     <span class="s625-xxlarge s625-text-white s625-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="s625-content s625-container s625-padding-64" id="contact">
+  <div class="s625-row s625-padding-32 s625-section">
+    <div class="s625-col m4 s625-container">
+      <img src="assets/salon-logo.png" class="s625-image s625-round" style="width:100%">
+      <p class="s625-center"><em>Book your appointment today.</em></p>
+    </div>
+    <div class="s625-col m8 s625-panel">
+      <div class="s625-large s625-margin-bottom">
+        <i class="fa fa-map-marker fa-fw s625-xlarge s625-margin-right"></i>625 W. Park Ave. Albert Lea, MN<br>
+        <i class="fa fa-phone fa-fw s625-xlarge s625-margin-right"></i><a href="tel:(507) 402-5913">(507) 402-5913</a><br>
+        <i class="fa fa-envelope fa-fw s625-xlarge s625-margin-right"></i><a href="trishstanley@me.com">trishstanley@me.com</a><br>
+      </div>
+      <form action="mailto:parkerjstanley@gmail.com" method="POST" enctype=”multipart/form-data” name="contactForm">
+        <div class="s625-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="s625-half">
+            <input class="s625-input s625-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="s625-half">
+            <input class="s625-input s625-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="s625-input s625-border" type="text" placeholder="Message" required name="Message">
+        <button class="s625-button s625-black s625-right s625-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="s625-center s625-black s625-padding-64 s625-opacity s625-hover-opacity-off">
+  <a href="#home" class="s625-button s625-light-grey"><i class="fa fa-arrow-up s625-margin-right"></i>To the top</a>
+  <div class="s625-xlarge s625-section">
+    <i class="fa fa-facebook-official s625-hover-opacity" href="https://www.facebook.com/pages/category/Hair-Salon/Salon-625-132129053498181/"></i>
+    <i class="fa fa-yelp s625-hover-opacity" href="https://www.yelp.com/biz/salon-625-albert-lea"></i>
+  </div>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "s625-bar" + " s625-card" + " s625-animate-top" + " s625-white";
+    } else {
+        navbar.className = navbar.className.replace(" s625-card s625-animate-top s625-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("s625-show") == -1) {
+        x.className += " s625-show";
+    } else {
+        x.className = x.className.replace(" s625-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
