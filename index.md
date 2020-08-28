@@ -213,7 +213,7 @@ body, html {
         <i class="fa fa-phone fa-fw s625-xlarge s625-margin-right"></i><a href="tel:(507) 402-5913">(507) 402-5913</a><br>
         <i class="fa fa-envelope fa-fw s625-xlarge s625-margin-right"></i><a href="trishstanley@me.com">trishstanley@me.com</a><br>
       </div>
-      <form action="mailto:parkerjstanley@gmail.com" method="POST" enctype=”multipart/form-data” name="contactForm">
+      <form action="action.php" method="POST" enctype=”multipart/form-data” name="contactForm">
         <div class="s625-row-padding" style="margin:0 -16px 8px -16px">
           <div class="s625-half">
             <input class="s625-input s625-border" type="text" placeholder="Name" required name="Name">
